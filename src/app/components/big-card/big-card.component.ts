@@ -7,11 +7,13 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
   @Input()
-  photoCover: string = "https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png";
+  photoCover: string = "";
   @Input()
-  cardTitle: string = "";
+  cardTitle: string = ""
   @Input()
-  cardDescription: string = "";
+  cardDescription: string = ""
+  @Input()
+  Id: string="0"
 
 
   constructor() { }

@@ -11,21 +11,28 @@
 }
 
 .big-card__title > h1 {
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 15px;
+}
+
+.big-card__title > h1 > a:hover {
+ color: #e0e0e5;
 }
 
 .big-card__description {
   margin-top: 10px;
 }
 
-.big-card__description > p > a {
-  color: grey;
+.big-card__description > p  {
+  color: #868689;
 }
 
 .big-card__photo > img {
   width: 100%;
   min-width: 500px;
   min-height: 300px;
+  border-radius: 15px;
+  border: 4px solid #191818;
+
 
 }

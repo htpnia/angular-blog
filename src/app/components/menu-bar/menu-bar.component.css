@@ -7,9 +7,13 @@
 .container__menu-bar > ul > li {
   margin-right: 20px;
   list-style: none;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  color: #868689;
 }
 
 .container__menu-bar > ul > li > a {
   font-family: 'Trebuchet MS';
   font-weight: bold;
+  color: #868689;
 }
